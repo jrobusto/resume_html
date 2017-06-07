@@ -7,11 +7,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400,600|Ubuntu:300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -19,7 +17,185 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <h1><i class="fa fa-user-circle-o text-info" aria-hidden="true"></i> Joshua Robusto</h1>
+    <main>
+        <header>
+            <h1 id="name"><i class="fa fa-user-circle-o text-info" aria-hidden="true"></i> <span id="first">Joshua</span> Robusto<small> Software Engineer</small></h1>
+        </header>
+        <section id="skills">
+            <h2> <i class="fa fa-code" aria-hidden="true"></i>Technical Skills</h2>
+            <section class="blocks">
+                <div class="details">
+                    <dl>
+                        <dt>Programming Languages</dt>
+                        <dd>Javascript, Python, Java, Node.js, SQL</dd>
+                        <dt>Web Technologies</dt>
+                        <dd>HTML5, CSS, AngularJS, Bootstrap, XML, jQuery, Underscore, MongoDB, Polymer
+                            <!--, RequireJS, XSLT, Spring, Webhooks, JSP-->
+                        </dd>
+                        <dt>Development Tools</dt>
+                        <dd>Git, Grunt, Bower, Yeoman, JIRA, IDEA, Eclipse, Markdown, Maven, Tomcat, Apache HTTP Server, Android Studio
+                        </dd>
+                    </dl>
+                </div>
+            </section>
+        </section>
+        <section id="experience">
+            <h2> <i class="fa fa-briefcase" aria-hidden="true"></i>Experience</h2>
+            <section class="blocks">
+                <div class="date">
+                    <span>Jan 2017</span><span>present</span>
+                </div>
+                <div class="decorator">
+                </div>
+
+                <div class="details">
+                    <header>
+                        <h3>Software Engineer, WRAPS</h3>
+                        <span class="place">CSRA</span>
+                        <span class="location">Arlington, VA</span>
+                    </header>
+                    <div>
+                        <ul>
+                            <li>Developed and maintained case-management system web-app for processing refugee applications.</li>
+                            <li>Modified existing database stored procedures to align with code standards of maintainability.</li>
+                            <li>Hardened security within the application.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="blocks">
+                <div class="date">
+                    <span>Oct 2014</span><span>Jan 2017</span>
+                </div>
+                <div class="decorator">
+                </div>
+
+                <div class="details">
+                    <header>
+                        <h3>Software Engineer</h3>
+                        <span class="place">42Six Solutions / CSRA</span>
+                        <span class="location">Tucson, AZ</span>
+                    </header>
+                    <div>
+                        <ul>
+                            <li>Created Angular.js webapp that pulled data from a RESTful JSON service and presented the results in a user-friendly and customizable format, resulting in a strong and competitive proposal for the company.</li>
+                            <li>Managed the build and development process of the webapp using tools such as Grunt, Bower, and Yeoman, allowing the team to develop at a rapid pace.</li>
+                            <li>Modified machine learning workflows to properly use Apache Spark features for more reliable and efficient distributed processing, increasing performance.</li>
+                            <li>Added an option to the machine learning job, both in the back-end and the frontend Angular web-app for launching and viewing the results of jobs.</li>
+                            <li>Extended the functionality of AEM, a java-based Content Management System (CMS), such as creating content authoring processes to fit their desired workflow.</li>
+                            <!--<li>Created a Sling servlet to receive input from user forms and forward it as e-mails to the website
+                                administrators, allowing the customer to be more responsive to users.</li>-->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="blocks">
+                <div class="date">
+                    <span>May 2013</span><span>Jun 2014</span>
+                </div>
+                <div class="decorator">
+                </div>
+
+                <div class="details">
+                    <header>
+                        <h3>IT Coordinator, Software Systems Development &amp; Research</h3>
+                        <span class="place">University of Maryland Libaries</span>
+                        <span class="location">College Park, MD</span>
+                    </header>
+                    <div>
+                        <ul>
+                            <li>Developed and maintained the library’s Java-based Content Management System (CMS) using Agile development principles.</li>
+                            <li>Created a Spring Web Service that uses webhooks to connect our web form software and our help desk tracking software. This replaced an out-of-date workflow with an automated service that affords the end-users more control and
+                                flexibility.
+                            </li>
+                            <li>Provided support services for research groups wishing to use R for their data analysis, including refactoring code for reusability.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="blocks">
+                <div class="date">
+                    <span>Aug 2013</span><span>Jun 2014</span>
+                </div>
+                <div class="decorator">
+                </div>
+
+                <div class="details">
+                    <header>
+                        <h3>Lab Manager</h3>
+                        <span class="place">Language &amp; Music Cognition Lab</span>
+                        <span class="location">College Park, MD</span>
+                    </header>
+                    <div>
+                        <ul>
+                            <li>Rapid development of experimental tasks and procedures using Python libraries designed for experimental research such as PsychoPy and Expyriment.</li>
+                            <li>Created scripts to process and analyze data collected through experiments, primarily using Python.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="education">
+            <h2><i class="fa fa-book" aria-hidden="true"></i>Education</h2>
+            <section class="blocks">
+                <div class="date">
+                    <span>2017</span><span>present</span>
+                </div>
+                <div class="decorator">
+                </div>
+                <div class="details">
+                    <header>
+                        <h3>M.S. in Computer Science</h3>
+                        <span class="place">Georgia Institute of Technology</span>
+                        <span class="location">Atlanta, GA (remote)</span>
+                    </header>
+                    <div>TA for course on Artificial Intelligence</div>
+                </div>
+            </section>
+            <section class="blocks">
+                <div class="date">
+                    <span>2010</span><span>2013</span>
+                </div>
+                <div class="decorator">
+                </div>
+                <div class="details">
+                    <header>
+                        <h3>B.S. in Psychology</h3>
+                        <span class="place">University of Maryland</span>
+                        <span class="location">College Park, MD</span>
+                    </header>
+                    <div>Minor in Computer Science</div>
+                </div>
+            </section>
+
+        </section>
+        </section>
+    </main>
+    <aside id="sidebar">
+        <div class="side-block" id="contact">
+            <h1>
+                Contact Info
+            </h1>
+            <ul>
+                <li><i class="fa fa-envelope"></i> <a href="mailto:joshuarobusto@gmail.com">joshuarobusto@gmail.com</a></li>
+                <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/joshua-robusto">linkedin.com/in/joshua-robusto</a></li>
+                <li><i class="fa fa-github"></i> <a href="https://github.com/jrobusto">github.com/jrobusto</a></li>
+                <li><i class="fa fa-phone"></i> 443-867-6452</li>
+            </ul>
+        </div>
+        <div class="side-block" id="interests">
+            <h1>
+                Interests
+            </h1>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Computer Vision</li>
+                <li>Robotics</li>
+            </ul>
+        </div>
+    </aside>
+
 </body>
 
 </html>
